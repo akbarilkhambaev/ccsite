@@ -302,55 +302,14 @@ header {
   position: relative;
   z-index: 2; /* Элементы внутри блока выше слоя с цветом */
 }
-/* Основные стили для формы amoCRM */
-.amoforms-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 300px;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.9);
-  border-radius: 10px;
-}
-
-/* Стили для полей ввода */
-.amoforms-form input[type='text'],
-.amoforms-form input[type='tel'],
-.amoforms-form input[type='email'] {
-  width: 100% !important;
-  height: 50px !important;
-  margin-top: 10px !important;
-  margin-bottom: 10px !important;
-  padding: 10px !important;
-  font-size: 16px !important;
-  border: 1px solid #ddd !important;
-  border-radius: 5px !important;
-  background-color: #f9f9f9 !important; /* Светлый фон для поля */
-  color: #888 !important; /* Цвет текста внутри поля */
-  box-sizing: border-box !important;
-}
-
-/* Стили для кнопки отправки */
-.amoforms-form button {
-  width: 100% !important;
-  background-color: #d9534f !important; /* Розовый цвет кнопки */
-  color: #fff !important; /* Белый текст на кнопке */
-  padding: 10px !important;
-  font-size: 18px !important;
-  border: none !important;
-  border-radius: 20px !important; /* Закругленные края кнопки */
-  cursor: pointer !important;
-  transition: background-color 0.3s ease !important;
-}
-
-.amoforms-form button:hover {
-  background-color: #c74743 !important; /* Темнее при наведении */
-}
-
-/* Дополнительный стиль для скрытия текстовой области */
-.amoforms-form textarea {
-  display: none;
+/* Стили для внешнего контейнера формы */
+#amoforms_iframe_1441682 {
+  width: 100% !important; /* Занимает полную ширину */
+  max-width: 500px; /* Установите нужную ширину */
+  margin: 0 auto; /* Центрирование */
+  border: none; /* Убирает рамку */
+  border-radius: 10px; /* Закругленные края, если необходимо */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Добавление тени */
 }
 
 .form-map {
