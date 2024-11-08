@@ -302,8 +302,8 @@ header {
   position: relative;
   z-index: 2; /* Элементы внутри блока выше слоя с цветом */
 }
-//* Основные стили для формы amoCRM */
-#amoforms_form_1441682 {
+/* Основные стили для формы amoCRM */
+.amoforms-form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -315,9 +315,9 @@ header {
 }
 
 /* Стили для полей ввода */
-#amoforms_form_1441682 input[type='text'],
-#amoforms_form_1441682 input[type='tel'],
-#amoforms_form_1441682 input[type='email'] {
+.amoforms-form input[type='text'],
+.amoforms-form input[type='tel'],
+.amoforms-form input[type='email'] {
   width: 100% !important;
   height: 50px !important;
   margin-top: 10px !important;
@@ -332,7 +332,7 @@ header {
 }
 
 /* Стили для кнопки отправки */
-#amoforms_form_1441682 button {
+.amoforms-form button {
   width: 100% !important;
   background-color: #d9534f !important; /* Розовый цвет кнопки */
   color: #fff !important; /* Белый текст на кнопке */
@@ -344,12 +344,12 @@ header {
   transition: background-color 0.3s ease !important;
 }
 
-#amoforms_form_1441682 button:hover {
+.amoforms-form button:hover {
   background-color: #c74743 !important; /* Темнее при наведении */
 }
 
 /* Дополнительный стиль для скрытия текстовой области */
-#amoforms_form_1441682 textarea {
+.amoforms-form textarea {
   display: none;
 }
 
